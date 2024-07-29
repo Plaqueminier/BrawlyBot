@@ -1,0 +1,16 @@
+names:
+- Me
+- Enemy
+- Bush
+- Wall
+- Water
+- Box
+- Power cube
+- Gas
+- Bear ally
+- Bear enemy
+- Turret ally
+- Turret enemy
+nc: 12
+train: /Users/plqmnr/Documents/BrawlyBot/dataset/train/images
+val: /Users/plqmnr/Documents/BrawlyBot/dataset/valid/images
