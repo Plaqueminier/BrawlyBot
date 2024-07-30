@@ -4,7 +4,7 @@ import time
 import os
 
 # Screenshot area (adjust as needed)
-SCREEN_AREA = {"top": 140, "left": 200, "width": 1200, "height": 675}
+SCREEN_AREA = {"top": 80, "left": 0, "width": 1200, "height": 675}
 
 # Ensure the screenshot directory exists
 if not os.path.exists("screenshots"):

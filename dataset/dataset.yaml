@@ -11,6 +11,8 @@ names:
 - Bear enemy
 - Turret ally
 - Turret enemy
-nc: 12
+- Skeleton
+- Cactus
+nc: 14
 train: /Users/plqmnr/Documents/BrawlyBot/dataset/train/images
 val: /Users/plqmnr/Documents/BrawlyBot/dataset/valid/images

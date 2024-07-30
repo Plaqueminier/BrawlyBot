@@ -34,6 +34,8 @@ def train_brawl_stars_model():
         "Bear enemy",
         "Turret ally",
         "Turret enemy",
+        "Skeleton",
+        "Cactus"
     ]  # Update with your class names
 
     # Create dataset.yaml file
@@ -46,7 +48,7 @@ def train_brawl_stars_model():
 
     # Train the model
     results = model.train(
-        data=yaml_path, epochs=50, imgsz=600, batch=16, name="brawl_stars_model", device="mps"
+        data=yaml_path, epochs=30, imgsz=600, batch=16, name="brawl_stars_model", device="mps"
     )
 
     results = model.val()
